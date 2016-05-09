@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580A02881CDC3BC300BB9029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02871CDC3BC300BB9029 /* main.m */; };
+		580A028B1CDC3BC300BB9029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A028A1CDC3BC300BB9029 /* AppDelegate.m */; };
+		580A028E1CDC3BC300BB9029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A028D1CDC3BC300BB9029 /* ViewController.m */; };
+		580A02911CDC3BC300BB9029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580A028F1CDC3BC300BB9029 /* Main.storyboard */; };
+		580A02931CDC3BC300BB9029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580A02921CDC3BC300BB9029 /* Assets.xcassets */; };
+		580A02961CDC3BC300BB9029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580A02941CDC3BC300BB9029 /* LaunchScreen.storyboard */; };
+		580A02A11CDC3BC300BB9029 /* FastTransTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02A01CDC3BC300BB9029 /* FastTransTestTests.m */; };
+		580A02AC1CDC3BC300BB9029 /* FastTransTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02AB1CDC3BC300BB9029 /* FastTransTestUITests.m */; };
+		580A02BE1CDC3E0A00BB9029 /* UdpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02BD1CDC3E0A00BB9029 /* UdpServer.m */; };
+		580A02C11CDC3E2600BB9029 /* TcpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02C01CDC3E2600BB9029 /* TcpServer.m */; };
+		580A02CA1CDC3EA200BB9029 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02C61CDC3EA200BB9029 /* GCDAsyncSocket.m */; };
+		580A02CB1CDC3EA200BB9029 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02C81CDC3EA200BB9029 /* GCDAsyncUdpSocket.m */; };
+		580A02D21CDC4BBD00BB9029 /* MsgClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02D11CDC4BBD00BB9029 /* MsgClient.m */; };
+		580A02D51CDC4BCD00BB9029 /* FileClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02D41CDC4BCD00BB9029 /* FileClient.m */; };
+		580A02D91CDC4C6D00BB9029 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02D81CDC4C6D00BB9029 /* DeviceModel.m */; };
+		580A02DD1CDC4CAD00BB9029 /* IPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02DC1CDC4CAD00BB9029 /* IPHelper.m */; };
+		580A02E01CDC4CB800BB9029 /* NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02DF1CDC4CB800BB9029 /* NetWorkHelper.m */; };
+		580A02E31CDC699B00BB9029 /* BaseDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A02E21CDC699B00BB9029 /* BaseDeviceModel.m */; };
+		58394C961CE0198700605A1B /* testVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 58394C951CE0198700605A1B /* testVideo.mp4 */; };
+		5847AB601CDC6F59009715A8 /* FileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5847AB5F1CDC6F59009715A8 /* FileModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		580A029D1CDC3BC300BB9029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580A027B1CDC3BC300BB9029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580A02821CDC3BC300BB9029;
+			remoteInfo = FastTransTest;
+		};
+		580A02A81CDC3BC300BB9029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580A027B1CDC3BC300BB9029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580A02821CDC3BC300BB9029;
+			remoteInfo = FastTransTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		580A02831CDC3BC300BB9029 /* FastTransTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastTransTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		580A02871CDC3BC300BB9029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		580A02891CDC3BC300BB9029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		580A028A1CDC3BC300BB9029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		580A028C1CDC3BC300BB9029 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		580A028D1CDC3BC300BB9029 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		580A02901CDC3BC300BB9029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		580A02921CDC3BC300BB9029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580A02951CDC3BC300BB9029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		580A02971CDC3BC300BB9029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580A029C1CDC3BC300BB9029 /* FastTransTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastTransTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580A02A01CDC3BC300BB9029 /* FastTransTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastTransTestTests.m; sourceTree = "<group>"; };
+		580A02A21CDC3BC300BB9029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580A02A71CDC3BC300BB9029 /* FastTransTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastTransTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580A02AB1CDC3BC300BB9029 /* FastTransTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastTransTestUITests.m; sourceTree = "<group>"; };
+		580A02AD1CDC3BC300BB9029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580A02BC1CDC3E0A00BB9029 /* UdpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpServer.h; sourceTree = "<group>"; };
+		580A02BD1CDC3E0A00BB9029 /* UdpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdpServer.m; sourceTree = "<group>"; };
+		580A02BF1CDC3E2600BB9029 /* TcpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpServer.h; sourceTree = "<group>"; };
+		580A02C01CDC3E2600BB9029 /* TcpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TcpServer.m; sourceTree = "<group>"; };
+		580A02C51CDC3EA200BB9029 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		580A02C61CDC3EA200BB9029 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		580A02C71CDC3EA200BB9029 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		580A02C81CDC3EA200BB9029 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		580A02D01CDC4BBD00BB9029 /* MsgClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgClient.h; sourceTree = "<group>"; };
+		580A02D11CDC4BBD00BB9029 /* MsgClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgClient.m; sourceTree = "<group>"; };
+		580A02D31CDC4BCD00BB9029 /* FileClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileClient.h; sourceTree = "<group>"; };
+		580A02D41CDC4BCD00BB9029 /* FileClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileClient.m; sourceTree = "<group>"; };
+		580A02D71CDC4C6D00BB9029 /* DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
+		580A02D81CDC4C6D00BB9029 /* DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
+		580A02DB1CDC4CAD00BB9029 /* IPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPHelper.h; sourceTree = "<group>"; };
+		580A02DC1CDC4CAD00BB9029 /* IPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPHelper.m; sourceTree = "<group>"; };
+		580A02DE1CDC4CB800BB9029 /* NetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkHelper.h; sourceTree = "<group>"; };
+		580A02DF1CDC4CB800BB9029 /* NetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkHelper.m; sourceTree = "<group>"; };
+		580A02E11CDC699B00BB9029 /* BaseDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDeviceModel.h; sourceTree = "<group>"; };
+		580A02E21CDC699B00BB9029 /* BaseDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDeviceModel.m; sourceTree = "<group>"; };
+		58394C951CE0198700605A1B /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
+		5847AB5E1CDC6F59009715A8 /* FileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileModel.h; sourceTree = "<group>"; };
+		5847AB5F1CDC6F59009715A8 /* FileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580A02801CDC3BC300BB9029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A02991CDC3BC300BB9029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A02A41CDC3BC300BB9029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580A027A1CDC3BC300BB9029 = {
+			isa = PBXGroup;
+			children = (
+				580A02851CDC3BC300BB9029 /* FastTransTest */,
+				580A029F1CDC3BC300BB9029 /* FastTransTestTests */,
+				580A02AA1CDC3BC300BB9029 /* FastTransTestUITests */,
+				580A02841CDC3BC300BB9029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		580A02841CDC3BC300BB9029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580A02831CDC3BC300BB9029 /* FastTransTest.app */,
+				580A029C1CDC3BC300BB9029 /* FastTransTestTests.xctest */,
+				580A02A71CDC3BC300BB9029 /* FastTransTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580A02851CDC3BC300BB9029 /* FastTransTest */ = {
+			isa = PBXGroup;
+			children = (
+				580A02DA1CDC4C8A00BB9029 /* Tool */,
+				580A02D61CDC4C4D00BB9029 /* Model */,
+				580A02C31CDC3EA200BB9029 /* GCD */,
+				580A02C21CDC3E3D00BB9029 /* FTserver */,
+				580A02CF1CDC4B2900BB9029 /* FTclient */,
+				580A02891CDC3BC300BB9029 /* AppDelegate.h */,
+				580A028A1CDC3BC300BB9029 /* AppDelegate.m */,
+				580A028C1CDC3BC300BB9029 /* ViewController.h */,
+				580A028D1CDC3BC300BB9029 /* ViewController.m */,
+				580A028F1CDC3BC300BB9029 /* Main.storyboard */,
+				580A02921CDC3BC300BB9029 /* Assets.xcassets */,
+				580A02941CDC3BC300BB9029 /* LaunchScreen.storyboard */,
+				580A02971CDC3BC300BB9029 /* Info.plist */,
+				580A02861CDC3BC300BB9029 /* Supporting Files */,
+			);
+			path = FastTransTest;
+			sourceTree = "<group>";
+		};
+		580A02861CDC3BC300BB9029 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58394C951CE0198700605A1B /* testVideo.mp4 */,
+				580A02871CDC3BC300BB9029 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		580A029F1CDC3BC300BB9029 /* FastTransTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				580A02A01CDC3BC300BB9029 /* FastTransTestTests.m */,
+				580A02A21CDC3BC300BB9029 /* Info.plist */,
+			);
+			path = FastTransTestTests;
+			sourceTree = "<group>";
+		};
+		580A02AA1CDC3BC300BB9029 /* FastTransTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				580A02AB1CDC3BC300BB9029 /* FastTransTestUITests.m */,
+				580A02AD1CDC3BC300BB9029 /* Info.plist */,
+			);
+			path = FastTransTestUITests;
+			sourceTree = "<group>";
+		};
+		580A02C21CDC3E3D00BB9029 /* FTserver */ = {
+			isa = PBXGroup;
+			children = (
+				580A02BC1CDC3E0A00BB9029 /* UdpServer.h */,
+				580A02BD1CDC3E0A00BB9029 /* UdpServer.m */,
+				580A02BF1CDC3E2600BB9029 /* TcpServer.h */,
+				580A02C01CDC3E2600BB9029 /* TcpServer.m */,
+			);
+			name = FTserver;
+			sourceTree = "<group>";
+		};
+		580A02C31CDC3EA200BB9029 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				580A02C51CDC3EA200BB9029 /* GCDAsyncSocket.h */,
+				580A02C61CDC3EA200BB9029 /* GCDAsyncSocket.m */,
+				580A02C71CDC3EA200BB9029 /* GCDAsyncUdpSocket.h */,
+				580A02C81CDC3EA200BB9029 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		580A02CF1CDC4B2900BB9029 /* FTclient */ = {
+			isa = PBXGroup;
+			children = (
+				580A02D01CDC4BBD00BB9029 /* MsgClient.h */,
+				580A02D11CDC4BBD00BB9029 /* MsgClient.m */,
+				580A02D31CDC4BCD00BB9029 /* FileClient.h */,
+				580A02D41CDC4BCD00BB9029 /* FileClient.m */,
+			);
+			name = FTclient;
+			sourceTree = "<group>";
+		};
+		580A02D61CDC4C4D00BB9029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				580A02D71CDC4C6D00BB9029 /* DeviceModel.h */,
+				580A02D81CDC4C6D00BB9029 /* DeviceModel.m */,
+				580A02E11CDC699B00BB9029 /* BaseDeviceModel.h */,
+				580A02E21CDC699B00BB9029 /* BaseDeviceModel.m */,
+				5847AB5E1CDC6F59009715A8 /* FileModel.h */,
+				5847AB5F1CDC6F59009715A8 /* FileModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		580A02DA1CDC4C8A00BB9029 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				580A02DB1CDC4CAD00BB9029 /* IPHelper.h */,
+				580A02DC1CDC4CAD00BB9029 /* IPHelper.m */,
+				580A02DE1CDC4CB800BB9029 /* NetWorkHelper.h */,
+				580A02DF1CDC4CB800BB9029 /* NetWorkHelper.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580A02821CDC3BC300BB9029 /* FastTransTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580A02B01CDC3BC300BB9029 /* Build configuration list for PBXNativeTarget "FastTransTest" */;
+			buildPhases = (
+				580A027F1CDC3BC300BB9029 /* Sources */,
+				580A02801CDC3BC300BB9029 /* Frameworks */,
+				580A02811CDC3BC300BB9029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastTransTest;
+			productName = FastTransTest;
+			productReference = 580A02831CDC3BC300BB9029 /* FastTransTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		580A029B1CDC3BC300BB9029 /* FastTransTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580A02B31CDC3BC300BB9029 /* Build configuration list for PBXNativeTarget "FastTransTestTests" */;
+			buildPhases = (
+				580A02981CDC3BC300BB9029 /* Sources */,
+				580A02991CDC3BC300BB9029 /* Frameworks */,
+				580A029A1CDC3BC300BB9029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580A029E1CDC3BC300BB9029 /* PBXTargetDependency */,
+			);
+			name = FastTransTestTests;
+			productName = FastTransTestTests;
+			productReference = 580A029C1CDC3BC300BB9029 /* FastTransTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		580A02A61CDC3BC300BB9029 /* FastTransTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580A02B61CDC3BC300BB9029 /* Build configuration list for PBXNativeTarget "FastTransTestUITests" */;
+			buildPhases = (
+				580A02A31CDC3BC300BB9029 /* Sources */,
+				580A02A41CDC3BC300BB9029 /* Frameworks */,
+				580A02A51CDC3BC300BB9029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580A02A91CDC3BC300BB9029 /* PBXTargetDependency */,
+			);
+			name = FastTransTestUITests;
+			productName = FastTransTestUITests;
+			productReference = 580A02A71CDC3BC300BB9029 /* FastTransTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580A027B1CDC3BC300BB9029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = houxiebing;
+				TargetAttributes = {
+					580A02821CDC3BC300BB9029 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					580A029B1CDC3BC300BB9029 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 580A02821CDC3BC300BB9029;
+					};
+					580A02A61CDC3BC300BB9029 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 580A02821CDC3BC300BB9029;
+					};
+				};
+			};
+			buildConfigurationList = 580A027E1CDC3BC300BB9029 /* Build configuration list for PBXProject "FastTransTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 580A027A1CDC3BC300BB9029;
+			productRefGroup = 580A02841CDC3BC300BB9029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580A02821CDC3BC300BB9029 /* FastTransTest */,
+				580A029B1CDC3BC300BB9029 /* FastTransTestTests */,
+				580A02A61CDC3BC300BB9029 /* FastTransTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580A02811CDC3BC300BB9029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580A02961CDC3BC300BB9029 /* LaunchScreen.storyboard in Resources */,
+				580A02931CDC3BC300BB9029 /* Assets.xcassets in Resources */,
+				580A02911CDC3BC300BB9029 /* Main.storyboard in Resources */,
+				58394C961CE0198700605A1B /* testVideo.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A029A1CDC3BC300BB9029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A02A51CDC3BC300BB9029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580A027F1CDC3BC300BB9029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580A02CA1CDC3EA200BB9029 /* GCDAsyncSocket.m in Sources */,
+				580A028E1CDC3BC300BB9029 /* ViewController.m in Sources */,
+				580A02C11CDC3E2600BB9029 /* TcpServer.m in Sources */,
+				580A028B1CDC3BC300BB9029 /* AppDelegate.m in Sources */,
+				580A02D21CDC4BBD00BB9029 /* MsgClient.m in Sources */,
+				5847AB601CDC6F59009715A8 /* FileModel.m in Sources */,
+				580A02E31CDC699B00BB9029 /* BaseDeviceModel.m in Sources */,
+				580A02CB1CDC3EA200BB9029 /* GCDAsyncUdpSocket.m in Sources */,
+				580A02BE1CDC3E0A00BB9029 /* UdpServer.m in Sources */,
+				580A02D51CDC4BCD00BB9029 /* FileClient.m in Sources */,
+				580A02E01CDC4CB800BB9029 /* NetWorkHelper.m in Sources */,
+				580A02881CDC3BC300BB9029 /* main.m in Sources */,
+				580A02D91CDC4C6D00BB9029 /* DeviceModel.m in Sources */,
+				580A02DD1CDC4CAD00BB9029 /* IPHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A02981CDC3BC300BB9029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580A02A11CDC3BC300BB9029 /* FastTransTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580A02A31CDC3BC300BB9029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580A02AC1CDC3BC300BB9029 /* FastTransTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580A029E1CDC3BC300BB9029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580A02821CDC3BC300BB9029 /* FastTransTest */;
+			targetProxy = 580A029D1CDC3BC300BB9029 /* PBXContainerItemProxy */;
+		};
+		580A02A91CDC3BC300BB9029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580A02821CDC3BC300BB9029 /* FastTransTest */;
+			targetProxy = 580A02A81CDC3BC300BB9029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		580A028F1CDC3BC300BB9029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580A02901CDC3BC300BB9029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		580A02941CDC3BC300BB9029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580A02951CDC3BC300BB9029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580A02AE1CDC3BC300BB9029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		580A02AF1CDC3BC300BB9029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		580A02B11CDC3BC300BB9029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastTransTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigerEN.pawifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "05874734-ef47-415c-a267-c5cbb9a87f8d";
+			};
+			name = Debug;
+		};
+		580A02B21CDC3BC300BB9029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastTransTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigerEN.pawifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "05874734-ef47-415c-a267-c5cbb9a87f8d";
+			};
+			name = Release;
+		};
+		580A02B41CDC3BC300BB9029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FastTransTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxbtec.FastTransTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastTransTest.app/FastTransTest";
+			};
+			name = Debug;
+		};
+		580A02B51CDC3BC300BB9029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FastTransTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxbtec.FastTransTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastTransTest.app/FastTransTest";
+			};
+			name = Release;
+		};
+		580A02B71CDC3BC300BB9029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FastTransTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxbtec.FastTransTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FastTransTest;
+			};
+			name = Debug;
+		};
+		580A02B81CDC3BC300BB9029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FastTransTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxbtec.FastTransTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FastTransTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580A027E1CDC3BC300BB9029 /* Build configuration list for PBXProject "FastTransTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580A02AE1CDC3BC300BB9029 /* Debug */,
+				580A02AF1CDC3BC300BB9029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580A02B01CDC3BC300BB9029 /* Build configuration list for PBXNativeTarget "FastTransTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580A02B11CDC3BC300BB9029 /* Debug */,
+				580A02B21CDC3BC300BB9029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580A02B31CDC3BC300BB9029 /* Build configuration list for PBXNativeTarget "FastTransTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580A02B41CDC3BC300BB9029 /* Debug */,
+				580A02B51CDC3BC300BB9029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580A02B61CDC3BC300BB9029 /* Build configuration list for PBXNativeTarget "FastTransTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580A02B71CDC3BC300BB9029 /* Debug */,
+				580A02B81CDC3BC300BB9029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 580A027B1CDC3BC300BB9029 /* Project object */;
+}
